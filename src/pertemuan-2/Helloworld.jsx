@@ -6,13 +6,13 @@ export default function HelloWorld(){
     }
     return (
         <div>
-            <h1>Hello ilman</h1>
-            <img src="./img/ilman.jpg" width="100%"/>
+            <h1>Hello rifqi</h1>
+            <img src="./img/rifqi.jpg" width="100%"/>
             <p>Selamat Belajar ReactJs</p>
             <GreetingBinjai/>
             <QuoteText/>
             <UserCard 
-	            nama="Thariq" 
+	            nama="Rifqi" 
 	            nim="2457301143"
 	            tanggal={new Date().toLocaleDateString()}
 	          />

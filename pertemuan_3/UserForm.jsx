@@ -46,8 +46,8 @@ export default function UserForm() {
       <h2 className="text-2xl font-black text-blue-600 mb-2">Pendaftaran Kursus IT</h2>
       <p className="text-gray-500 mb-6 text-sm">Silahkan isi data diri dan pilih paket belajar kamu.</p>
 
-      <InputField label="Nama Lengkap" name="nama" type="text" placeholder="Contoh: Thariq" onChange={handleChange} error={errors.nama} />
-      <InputField label="Email" name="email" type="email" placeholder="thariq@mail.com" onChange={handleChange} error={errors.email} />
+      <InputField label="Nama Lengkap" name="nama" type="text" placeholder="Contoh: Rifqi" onChange={handleChange} error={errors.nama} />
+      <InputField label="Email" name="email" type="email" placeholder="rifqi@mail.com" onChange={handleChange} error={errors.email} />
       <InputField label="Umur" name="umur" type="text" placeholder="Contoh: 20" onChange={handleChange} error={errors.umur} />
 
       <div className="mb-4">

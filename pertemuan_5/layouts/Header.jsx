@@ -41,9 +41,9 @@ export default function Header() {
 
         {/* Profile - Nama dirapikan */}
         <div id="profile-container" className="flex items-center space-x-4 border-l pl-4 border-gray-300">
-          <span className="text-sm">Hello, <b className="text-gray-800">Thariq Alfayyadh</b></span>
+          <span className="text-sm">Hello, <b className="text-gray-800">Rifqi Al Shirazi</b></span>
           <img
-            src="https://api.dicebear.com/8.x/lorelei/svg?seed=Thariq&backgroundColor=bfdbfe&flip=true"
+            src="https://api.dicebear.com/8.x/lorelei/svg?seed=Rifqi&backgroundColor=bfdbfe&flip=true"
             alt="profile"
             className="w-10 h-10 rounded-full border border-gray-100 shadow-sm"
           />
